@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Use Nodemon",
+    "content": "Having to run node [file].js over and over again when you start Node.js development can be very tiring. This takes up so much of your time and can be very frustrating. Nodemon is a great tool that can help you solve this problem once and for good.",
+    "user_id":1
+  },
+  {
+    "title": "use === instead of ==",
+    "content": "The == (or !=) operator performs an automatic type conversion if needed. The === (or !==) operator will not perform any conversion. It compares the value and the type, which could be considered faster than ==.",
+    "user_id":1
+  },
+  {
+    "title": "Dont use delete to remove an item from array",
+    "content": "Use splice instead of using delete to delete an item from an array. Using delete replaces the item with undefined instead of the removing it from the array.",
+    "user_id":2
+  }
+]

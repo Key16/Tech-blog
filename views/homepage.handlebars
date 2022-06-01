@@ -1,0 +1,22 @@
+<!-- Loop over each object in the projects array -->
+{{#each blogs as |blog| }}
+
+
+<div class="card mx-3 mt-4 mb-3">
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-7 col-sm-12 p-0 fs-4">
+        {{blog.title}}
+      </div>
+      <div class="col-lg-5 col-sm-12 text-end fw-light fs-5 ">
+        Submitted by {{blog.user.name}} on {{format_date blog.date_created}}
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <p class="card-text fs-4 p-2"> {{blog.content}}
+    </p>
+
+  </div>
+</div>
+{{/each}}

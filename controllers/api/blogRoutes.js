@@ -2,6 +2,8 @@ const router = require('express').Router();
 const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+
+//post route for creating new blog post
 router.post('/', withAuth, async (req, res) => {
 
   console.log("the req sesion is" ,req);
@@ -17,6 +19,8 @@ router.post('/', withAuth, async (req, res) => {
   }
 });
 
+
+//updatinng blog post
 router.put('/:id', withAuth, async (req, res) => {
   console.log(req.body)
   try {
@@ -39,6 +43,8 @@ console.log(newBlog)
   }
 });
 
+
+//deleting blog post
 router.delete('/:id', withAuth, async (req, res) => {
   try {
     

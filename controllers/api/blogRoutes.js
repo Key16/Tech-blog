@@ -3,6 +3,8 @@ const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
+
+  console.log("the req sesion is" ,req);
   try {
     const newBlog = await Blog.create({
       ...req.body,

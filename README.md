@@ -4,7 +4,7 @@
 ## Description
 A place to upload tech tips in a blog like forum. This includes signing up to the platform to make posts, and a way to edit your previous posts from your profile page.
 
-Video Walkthrough is [here](https://www.loom.com/share/923c8f1337fd4fc5bb20341150c84f0c)
+Video Walkthrough is [here](https://www.loom.com/share/2f5ed4ec2ee349b687e08bf938887056)
 
 Hosted live on Heroku [here](https://polar-woodland-55276.herokuapp.com) 
 
